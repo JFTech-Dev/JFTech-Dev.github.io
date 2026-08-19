@@ -19,6 +19,7 @@
           <span class="brand-name">TECH<span class="brand-dot">.</span></span>
         </a>
         <nav class="site-nav" aria-label="Main navigation">
+          <a href="#disclosures">Disclosures</a>
           <a href="#capabilities">Capabilities</a>
           <a href="#approach">Approach</a>
           <a href="#contact">Contact</a>
@@ -34,8 +35,8 @@
               JF Tech helps teams understand difficult iOS and macOS security problems through rigorous reverse engineering, vulnerability research, and evidence-led validation.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#capabilities">Explore capabilities <span aria-hidden="true">↘</span></a>
-              <a class="button button-quiet" href="https://github.com/0xjohnnydev" target="_blank" rel="noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+              <a class="button button-primary" href="#disclosures">View selected disclosures <span aria-hidden="true">↘</span></a>
+              <a class="button button-quiet" href="#capabilities">Explore capabilities <span aria-hidden="true">↓</span></a>
             </div>
           </div>
 
@@ -59,6 +60,41 @@
         <div class="topic-rail" aria-label="Research topics">
           <span>iOS</span><b>•</b><span>macOS</span><b>•</b><span>arm64e</span><b>•</b><span>Mach-O</span><b>•</b><span>Swift</span><b>•</b><span>Objective-C</span><b>•</b><span>C</span>
         </div>
+
+        <section class="disclosures section-block" id="disclosures" aria-labelledby="disclosures-title">
+          <div class="section-intro disclosure-intro">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span>Public technical record</p>
+              <p class="disclosure-count">04<span> selected disclosures</span></p>
+            </div>
+            <div>
+              <h2 id="disclosures-title">Findings that<br /><em>stand up to scrutiny.</em></h2>
+              <p class="disclosure-summary">Selected Apple-platform vulnerability research with public technical references and reproducible evidence.</p>
+            </div>
+          </div>
+          <div class="disclosure-list">
+            <a class="disclosure-row" href="https://github.com/0xjohnnydev/CVE-2026-20687-AppleJPEGDriver-UAF" target="_blank" rel="noreferrer">
+              <span class="disclosure-id">CVE-2026-20687</span>
+              <span class="disclosure-details"><span class="disclosure-title">AppleJPEGDriver startDecoder use-after-free</span><span class="disclosure-kind">kernel · memory safety</span></span>
+              <span class="disclosure-link">Technical reference ↗</span>
+            </a>
+            <a class="disclosure-row" href="https://github.com/0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions" target="_blank" rel="noreferrer">
+              <span class="disclosure-id">CVE-2026-28992</span>
+              <span class="disclosure-details"><span class="disclosure-title">IOHIDFamily FastPathUserClient race condition</span><span class="disclosure-kind">kernel · use-after-free · race</span></span>
+              <span class="disclosure-link">Technical reference ↗</span>
+            </a>
+            <a class="disclosure-row" href="https://github.com/0xjohnnydev/CVE-2026-20637-AppleSEPKeyStore-UAF" target="_blank" rel="noreferrer">
+              <span class="disclosure-id">CVE-2026-20637</span>
+              <span class="disclosure-details"><span class="disclosure-title">AppleSEPKeyStore use-after-free</span><span class="disclosure-kind">kernel · memory safety</span></span>
+              <span class="disclosure-link">Technical reference ↗</span>
+            </a>
+            <a class="disclosure-row" href="https://github.com/0xjohnnydev/SEP-Exhaustion-Kernel-Panic" target="_blank" rel="noreferrer">
+              <span class="disclosure-id">SEP-DoS</span>
+              <span class="disclosure-details"><span class="disclosure-title">SEP firmware panic via AppleKeyStore</span><span class="disclosure-kind">kernel / SEP · denial of service</span></span>
+              <span class="disclosure-link">Technical reference ↗</span>
+            </a>
+          </div>
+        </section>
 
         <section class="capabilities section-block" id="capabilities" aria-labelledby="capabilities-title">
           <div class="section-intro">
@@ -113,7 +149,7 @@
             <p class="eyebrow"><span class="eyebrow-line"></span>Start a conversation</p>
             <h2 id="contact-title">Have a difficult Apple-platform security question?</h2>
           </div>
-          <a class="button button-light" href="https://github.com/0xjohnnydev" target="_blank" rel="noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-light" href="#disclosures">Review disclosures <span aria-hidden="true">↗</span></a>
         </section>
       </main>
 
