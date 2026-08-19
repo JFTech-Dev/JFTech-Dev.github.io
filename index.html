@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071016" />
+    <meta
+      name="description"
+      content="JF Tech provides independent iOS and macOS security research, reverse engineering, and proof-of-concept development."
+    />
+    <title>JF Tech — iOS &amp; macOS Security Research</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="JF Tech home">
+          <span class="brand-mark">JF</span>
+          <span class="brand-name">TECH<span class="brand-dot">.</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#capabilities">Capabilities</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span>Independent Apple-platform security research</p>
+            <h1 id="hero-title">Clarity at the edge of Apple’s platforms.</h1>
+            <p class="hero-lede">
+              JF Tech helps teams understand difficult iOS and macOS security problems through rigorous reverse engineering, vulnerability research, and evidence-led validation.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#capabilities">Explore capabilities <span aria-hidden="true">↘</span></a>
+              <a class="button button-quiet" href="https://github.com/0xjohnnydev" target="_blank" rel="noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <div class="signal-card" aria-label="Research focus areas">
+            <div class="card-bar">
+              <span class="window-dots"><i></i><i></i><i></i></span>
+              <span class="card-label">research / active</span>
+            </div>
+            <div class="terminal-content">
+              <p class="terminal-command"><span class="prompt">$</span> map --target apple-platforms</p>
+              <div class="terminal-rule"></div>
+              <p class="terminal-row"><span class="terminal-index">01</span><span>iOS security</span><span class="terminal-status">ready</span></p>
+              <p class="terminal-row"><span class="terminal-index">02</span><span>macOS internals</span><span class="terminal-status">ready</span></p>
+              <p class="terminal-row"><span class="terminal-index">03</span><span>arm64e research</span><span class="terminal-status">ready</span></p>
+              <p class="terminal-row"><span class="terminal-index">04</span><span>reproducible PoCs</span><span class="terminal-status">ready</span></p>
+              <div class="terminal-footer"><span class="pulse"></span> tracing the signal through the noise</div>
+            </div>
+          </div>
+        </section>
+
+        <div class="topic-rail" aria-label="Research topics">
+          <span>iOS</span><b>•</b><span>macOS</span><b>•</b><span>arm64e</span><b>•</b><span>Mach-O</span><b>•</b><span>Swift</span><b>•</b><span>Objective-C</span><b>•</b><span>C</span>
+        </div>
+
+        <section class="capabilities section-block" id="capabilities" aria-labelledby="capabilities-title">
+          <div class="section-intro">
+            <p class="eyebrow"><span class="eyebrow-line"></span>What I do</p>
+            <h2 id="capabilities-title">Deep technical work.<br /><em>Useful answers.</em></h2>
+          </div>
+          <div class="capability-grid">
+            <article class="capability-card">
+              <span class="card-number">01</span>
+              <h3>Reverse engineering</h3>
+              <p>Turn opaque Apple binaries and native frameworks into an understandable map of behavior, boundaries, and control flow.</p>
+              <div class="card-tags"><span>Mach-O</span><span>dyld</span><span>IDA</span></div>
+            </article>
+            <article class="capability-card capability-card-accent">
+              <span class="card-number">02</span>
+              <h3>Vulnerability research</h3>
+              <p>Find and assess meaningful flaws across parsers, memory boundaries, privilege transitions, and security-sensitive logic.</p>
+              <div class="card-tags"><span>fuzzing</span><span>triage</span><span>analysis</span></div>
+            </article>
+            <article class="capability-card">
+              <span class="card-number">03</span>
+              <h3>PoC &amp; validation</h3>
+              <p>Build focused harnesses and reproducible demonstrations that separate a technical signal from an untested hypothesis.</p>
+              <div class="card-tags"><span>Objective-C</span><span>runtime</span><span>evidence</span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="approach section-block" id="approach" aria-labelledby="approach-title">
+          <div class="approach-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span>How I work</p>
+            <h2 id="approach-title">A clear path through<br /><em>hard problems.</em></h2>
+          </div>
+          <div class="approach-list">
+            <div class="approach-step">
+              <span class="step-number">01</span>
+              <div><h3>Map</h3><p>Establish the target, attack surface, data flow, and relevant security assumptions.</p></div>
+            </div>
+            <div class="approach-step">
+              <span class="step-number">02</span>
+              <div><h3>Test</h3><p>Exercise the boundary with focused static and runtime analysis, guided by the evidence.</p></div>
+            </div>
+            <div class="approach-step">
+              <span class="step-number">03</span>
+              <div><h3>Prove</h3><p>Deliver a precise technical record, clear impact analysis, and the next useful verification step.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-panel" id="contact" aria-labelledby="contact-title">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span>Start a conversation</p>
+            <h2 id="contact-title">Have a difficult Apple-platform security question?</h2>
+          </div>
+          <a class="button button-light" href="https://github.com/0xjohnnydev" target="_blank" rel="noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>JF Tech / iOS &amp; macOS Security Research</span>
+        <span>© 2026</span>
+      </footer>
+    </div>
+  </body>
+</html>
